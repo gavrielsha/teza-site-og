@@ -1,4 +1,3 @@
-import { Logo } from "@/components/Logo";
 import { useEffect, useRef } from "react";
 
 interface HeaderProps {
@@ -57,7 +56,6 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="flex flex-col items-start space-y-2">
           <div className="flex items-center gap-4 w-full">
-            <Logo size="medium" />
             <div className="w-full overflow-visible">
               <h1 
                 ref={headerTextRef}
