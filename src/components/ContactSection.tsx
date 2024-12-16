@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Logo } from "@/components/Logo";
-import Link from "next/link";
 
 export const ContactSection = () => (
   <section className="space-y-24">
@@ -17,9 +16,9 @@ export const ContactSection = () => (
         <div className="space-y-4">
           <h3 className="text-lg text-gray-500">(Socials)</h3>
           <div className="space-y-2">
-            <Link href="#" className="block hover:underline">Instagram</Link>
-            <Link href="#" className="block hover:underline">Behance</Link>
-            <Link href="#" className="block hover:underline">Dribbble</Link>
+            <a href="#" className="block hover:underline">Instagram</a>
+            <a href="#" className="block hover:underline">Behance</a>
+            <a href="#" className="block hover:underline">Dribbble</a>
           </div>
         </div>
       </div>
@@ -57,7 +56,7 @@ export const ContactSection = () => (
       </div>
     </div>
     <footer className="flex items-center justify-between pt-6 pb-12 border-t border-gray-200">
-      <Link href="#" className="text-sm hover:underline">teza.ai ©</Link>
+      <a href="#" className="text-sm hover:underline">teza.ai ©</a>
       <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-sm text-blue-600 hover:underline">
         Back to Top
       </button>
