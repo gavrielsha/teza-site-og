@@ -25,7 +25,7 @@ export const ContactSection = () => (
       <div className="space-y-6">
         <div className="grid gap-4 md:grid-cols-2">
           <div className="space-y-2">
-            <label htmlFor="name" className="block text-lg text-gray-500">(Name)</label>
+            <label htmlFor="name" className="block text-lg text-gray-500 italic">(Name)</label>
             <Input 
               id="name" 
               placeholder="First Name" 
@@ -33,7 +33,7 @@ export const ContactSection = () => (
             />
           </div>
           <div className="space-y-2">
-            <label htmlFor="email" className="block text-lg text-gray-500">(Email)</label>
+            <label htmlFor="email" className="block text-lg text-gray-500 italic">(Email)</label>
             <Input 
               id="email" 
               type="email" 
