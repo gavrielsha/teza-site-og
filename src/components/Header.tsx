@@ -59,13 +59,14 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="flex flex-col items-start space-y-2">
           <Logo size="medium" />
-          <div className="w-full">
+          <div className="w-full overflow-hidden">
             <h1 
               ref={headerTextRef}
-              className="font-bold leading-tight font-matrix text-left"
+              className="font-bold leading-tight font-matrix text-left break-words"
               style={{ 
-                fontSize: 'clamp(2rem, 8vw, 4rem)',
-                lineHeight: '1.1'
+                fontSize: 'clamp(1.5rem, 5vw, 3rem)',
+                lineHeight: '1.1',
+                maxWidth: '100%'
               }}
             >
               We spark{" "}
