@@ -29,20 +29,6 @@ export const HowWeOperateSection = forwardRef<HTMLElement>((_, ref) => (
       <p className="text-lg">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
       </p>
-      <div className="grid gap-8 md:grid-cols-3">
-        <div>
-          <h3 className="text-2xl font-bold font-kagon mb-2">Viral Architects</h3>
-          <p>Our team of viral architects combines deep expertise in psychology, data science, and creative direction.</p>
-        </div>
-        <div>
-          <h3 className="text-2xl font-bold font-kagon mb-2">AI Engineers</h3>
-          <p>World-class AI engineers developing cutting-edge algorithms for viral content optimization.</p>
-        </div>
-        <div>
-          <h3 className="text-2xl font-bold font-kagon mb-2">Creative Directors</h3>
-          <p>Award-winning creative directors crafting unforgettable narratives that capture global attention.</p>
-        </div>
-      </div>
     </div>
   </section>
 ));
