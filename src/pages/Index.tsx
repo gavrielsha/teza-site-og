@@ -20,7 +20,10 @@ export default function Index() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-black font-eb-garamond">
+    <div className="min-h-screen bg-white text-black font-eb-garamond" style={{ 
+      overflow: isContentVisible ? 'auto' : 'hidden',
+      height: isContentVisible ? 'auto' : '100vh'
+    }}>
       <Logo />
       <Header 
         isContentVisible={isContentVisible}
