@@ -10,7 +10,7 @@ export const ContactSection = () => (
         <div className="space-y-4">
           <div className="flex items-center space-x-4">
             <Logo />
-            <h2 className="text-5xl font-bold font-oswald">Teza</h2>
+            <h2 className="text-5xl font-eb-garamond italic">Teza</h2>
           </div>
         </div>
         <div className="space-y-4">
