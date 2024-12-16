@@ -24,7 +24,7 @@ export const HowWeOperateSection = forwardRef<HTMLElement>((_, ref) => (
       </div>
     </div>
 
-    <div className="space-y-8">
+    <div className="space-y-4">
       <h2 className="text-4xl font-bold font-kagon">Team</h2>
       <p className="text-lg">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
