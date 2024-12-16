@@ -80,8 +80,8 @@
 }
 
 @font-face {
-  font-family: 'RLMadena';
-  src: url('/fonts/RL-Madena-Oblique.woff') format('woff');
+  font-family: 'Lucette';
+  src: url('/fonts/Lucette-Regularitalic.woff') format('woff');
 }
 
 .font-eb-garamond {
@@ -116,8 +116,8 @@
   font-family: 'NeueProtest', sans-serif;
 }
 
-.font-rl-madena {
-  font-family: 'RLMadena', sans-serif;
+.font-lucette {
+  font-family: 'Lucette', sans-serif;
 }
 
 @layer base {
