@@ -28,17 +28,19 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
       const maxScroll = howWeOperateTop - headerHeight;
       const scale = Math.max(0.65, Math.min(1, 1 - (scrollY / maxScroll) * 0.35));
       
-      headerText.style.transform = `scale(${scale})`;
-      headerText.style.transformOrigin = 'left top';
-
-      // Keep header fixed and only update its transform
-      header.style.position = 'fixed';
-      header.style.top = '0';
-      
-      // If we've scrolled past the target position, lock the scale at minimum
-      if (howWeOperateTop <= headerHeight + 5) {
+      // If we haven't reached the how we operate section
+      if (howWeOperateTop > headerHeight) {
+        header.style.position = 'fixed';
+        header.style.top = '0';
+        headerText.style.transform = `scale(${scale})`;
+      } else {
+        // Lock the header just above the how we operate section
+        header.style.position = 'absolute';
+        header.style.top = `${howWeOperate.offsetTop - headerHeight}px`;
         headerText.style.transform = 'scale(0.65)';
       }
+      
+      headerText.style.transformOrigin = 'left top';
     };
 
     window.addEventListener('scroll', handleScroll);
