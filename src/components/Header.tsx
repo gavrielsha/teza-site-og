@@ -59,11 +59,12 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
             <div className="w-full overflow-visible">
               <h1 
                 ref={headerTextRef}
-                className="leading-tight font-eb-garamond italic text-left break-words overflow-visible"
+                className="leading-tight font-eb-garamond italic text-left break-words overflow-visible w-full"
                 style={{ 
-                  fontSize: 'clamp(2.5rem, 8vw, 5rem)',
+                  fontSize: 'min(8vw, 5rem)',
                   lineHeight: '1',
-                  maxWidth: '100%'
+                  maxWidth: '100%',
+                  width: '100%'
                 }}
               >
                 We spark{" "}
