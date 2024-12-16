@@ -29,7 +29,7 @@ export const ContactSection = () => (
             <Input 
               id="name" 
               placeholder="First Name" 
-              className="bg-gray-50 border-0 rounded-none h-12" 
+              className="bg-gray-50 border-0 rounded-none h-12 font-matrix" 
             />
           </div>
           <div className="space-y-2">
@@ -38,7 +38,7 @@ export const ContactSection = () => (
               id="email" 
               type="email" 
               placeholder="Email Address" 
-              className="bg-gray-50 border-0 rounded-none h-12" 
+              className="bg-gray-50 border-0 rounded-none h-12 font-matrix" 
             />
           </div>
         </div>
@@ -47,7 +47,7 @@ export const ContactSection = () => (
           <Textarea 
             id="message" 
             placeholder="Your Message" 
-            className="min-h-[200px] bg-gray-50 border-0 rounded-none resize-none" 
+            className="min-h-[200px] bg-gray-50 border-0 rounded-none resize-none font-matrix" 
           />
         </div>
         <Button className="w-full bg-black text-white hover:bg-gray-800 rounded-full h-12">
