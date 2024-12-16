@@ -14,7 +14,7 @@ export const ContactSection = () => (
           </div>
         </div>
         <div className="space-y-4">
-          <h3 className="text-lg text-gray-500">(Socials)</h3>
+          <h3 className="text-lg text-gray-500 italic">(Socials)</h3>
           <div className="space-y-2">
             <a href="#" className="block hover:underline">Instagram</a>
             <a href="#" className="block hover:underline">Behance</a>
