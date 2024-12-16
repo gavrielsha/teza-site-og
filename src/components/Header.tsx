@@ -62,7 +62,7 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
           <div className="w-full overflow-hidden">
             <h1 
               ref={headerTextRef}
-              className="font-bold leading-tight font-eb-garamond italic text-left break-words"
+              className="leading-tight font-eb-garamond italic text-left break-words"
               style={{ 
                 fontSize: 'clamp(1.5rem, 5vw, 3rem)',
                 lineHeight: '1.1',
