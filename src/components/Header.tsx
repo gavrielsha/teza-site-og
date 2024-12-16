@@ -61,7 +61,7 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
                 ref={headerTextRef}
                 className="leading-tight font-eb-garamond italic text-left break-words overflow-visible w-full"
                 style={{ 
-                  fontSize: 'min(12vw, 7rem)',
+                  fontSize: 'min(8vw, 5rem)',
                   lineHeight: '1',
                   maxWidth: '100%',
                   width: '100%'
