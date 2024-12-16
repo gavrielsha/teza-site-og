@@ -5,20 +5,20 @@ export const HowWeOperateSection = forwardRef<HTMLElement>((_, ref) => (
     <section ref={ref} className="space-y-6">
       <h2 className="text-4xl md:text-5xl lg:text-6xl font-eb-garamond italic">How we operate</h2>
       <div className="grid gap-10 md:grid-cols-3">
-        <div className="h-full">
-          <h3 className="text-lg font-matrix mb-3">State-of-the-art narrative modeling</h3>
+        <div>
+          <h3 className="text-sm md:text-base lg:text-lg font-matrix mb-3">State-of-the-art narrative modeling</h3>
           <p className="text-sm md:text-base font-matrix">
             Our AI-driven approach analyzes and predicts viral potential across platforms, ensuring maximum impact for every campaign.
           </p>
         </div>
-        <div className="h-full">
-          <h3 className="text-lg font-matrix mb-3">Creative that will blow your mind</h3>
+        <div>
+          <h3 className="text-sm md:text-base lg:text-lg font-matrix mb-3">Creative that will blow your mind</h3>
           <p className="text-sm md:text-base font-matrix">
             We combine data-driven insights with cutting-edge creative to produce content that captures attention and drives engagement.
           </p>
         </div>
-        <div className="h-full">
-          <h3 className="text-lg font-matrix mb-3">LLM powered distribution</h3>
+        <div>
+          <h3 className="text-sm md:text-base lg:text-lg font-matrix mb-3">LLM powered distribution</h3>
           <p className="text-sm md:text-base font-matrix">
             Advanced language models optimize content distribution, ensuring your message reaches and resonates with the right audience.
           </p>
