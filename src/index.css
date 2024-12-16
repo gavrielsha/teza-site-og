@@ -68,6 +68,11 @@
   src: url('/fonts/ZHIROK TYPEFACE.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'KAGON';
+  src: url('/fonts/Kagon DEMO.otf') format('opentype');
+}
+
 .font-eb-garamond {
   font-family: 'EB Garamond', serif;
 }
@@ -82,4 +87,8 @@
 
 .font-zhirok {
   font-family: 'ZHIROK', sans-serif;
+}
+
+.font-kagon {
+  font-family: 'KAGON', sans-serif;
 }
