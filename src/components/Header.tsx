@@ -53,7 +53,7 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
         minHeight: 'min-content'
       }}
     >
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="container mx-auto px-4 max-w-4xl">
         <div className="flex flex-col items-start space-y-2">
           <div className="flex items-center gap-4 w-full">
             <div className="w-full overflow-visible">
