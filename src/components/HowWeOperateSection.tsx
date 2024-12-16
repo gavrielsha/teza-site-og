@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 
 export const HowWeOperateSection = forwardRef<HTMLElement>((_, ref) => (
-  <section ref={ref} className="space-y-8">
+  <section ref={ref} className="space-y-4">
     <h2 className="text-4xl font-bold font-kagon">How we operate</h2>
     <div className="grid gap-8 md:grid-cols-3">
       <div>
