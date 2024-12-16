@@ -46,7 +46,7 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
   return (
     <header 
       ref={headerRef} 
-      className="fixed top-0 left-0 right-0 z-10 py-2 w-full" 
+      className="fixed top-0 left-0 right-0 z-10 py-4 w-full" 
       style={{
         boxShadow: '0 4px 6px -1px rgba(255, 255, 255, 0.7), 0 2px 4px -1px rgba(255, 255, 255, 0.6)',
         background: 'linear-gradient(to bottom, white 90%, rgba(255, 255, 255, 0.8) 100%)',
@@ -55,13 +55,13 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
     >
       <div className="w-full max-w-[2000px] mx-auto px-6 md:px-12">
         <div className="flex flex-col items-start space-y-2">
-          <div className="flex items-center gap-4 w-full">
-            <div className="w-full overflow-visible">
+          <div className="flex items-center gap-4 w-full overflow-hidden">
+            <div className="w-full">
               <h1 
                 ref={headerTextRef}
-                className="leading-tight font-eb-garamond italic text-left break-words overflow-visible w-full"
+                className="leading-tight font-eb-garamond italic text-left break-words w-full"
                 style={{ 
-                  fontSize: 'min(20vw, 10rem)',
+                  fontSize: 'clamp(2rem, 16vw, 10rem)',
                   lineHeight: '1',
                   maxWidth: '100%',
                   width: '100%'

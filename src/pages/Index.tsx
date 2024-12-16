@@ -36,7 +36,7 @@ export default function Index() {
           isContentVisible ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
         }`}
       >
-        <main className="w-full max-w-[2000px] mx-auto px-6 md:px-12 space-y-20 pt-40 text-left">
+        <main className="w-full max-w-[2000px] mx-auto px-6 md:px-12 space-y-20 pt-48 text-left">
           <HeroSection />
           <HowWeOperateSection ref={howWeOperateRef} />
           <ContactSection />
