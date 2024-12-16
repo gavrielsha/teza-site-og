@@ -59,12 +59,12 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="flex flex-col items-start space-y-2">
           <Logo size="medium" />
-          <div className="w-full overflow-hidden">
+          <div className="w-full">
             <h1 
               ref={headerTextRef}
-              className="font-bold leading-tight font-matrix text-left whitespace-nowrap"
+              className="font-bold leading-tight font-matrix text-left"
               style={{ 
-                fontSize: 'min(85vw, 8rem)',
+                fontSize: 'clamp(2rem, 8vw, 4rem)',
                 lineHeight: '1.1'
               }}
             >
