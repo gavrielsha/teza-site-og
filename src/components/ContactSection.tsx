@@ -4,7 +4,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Logo } from "@/components/Logo";
 
 export const ContactSection = () => (
-  <section className="space-y-24">
+  <section className="space-y-24 contact-section">
     <div className="grid gap-24 md:grid-cols-2 mt-40">
       <div className="space-y-16">
         <div className="space-y-4">
