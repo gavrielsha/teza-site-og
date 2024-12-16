@@ -5,7 +5,7 @@ import { Logo } from "@/components/Logo";
 
 export const ContactSection = () => (
   <section className="space-y-24">
-    <div className="grid gap-24 md:grid-cols-2">
+    <div className="grid gap-24 md:grid-cols-2 mt-24">
       <div className="space-y-16">
         <div className="space-y-4">
           <div className="flex items-center space-x-4">
