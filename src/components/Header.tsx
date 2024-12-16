@@ -55,7 +55,7 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
     >
       <div className="w-full max-w-[2000px] mx-auto px-6 md:px-12">
         <div className="flex flex-col items-start">
-          <div className="flex items-center gap-4 w-full overflow-hidden">
+          <div className="flex items-center gap-4 w-full overflow-visible">
             <div className="w-full">
               <h1 
                 ref={headerTextRef}
@@ -64,7 +64,9 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
                   fontSize: 'clamp(2rem, 16vw, 10rem)',
                   lineHeight: '1',
                   maxWidth: '100%',
-                  width: '100%'
+                  width: '100%',
+                  overflowX: 'hidden',
+                  overflowY: 'visible'
                 }}
               >
                 We spark{" "}
