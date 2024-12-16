@@ -55,13 +55,13 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
     >
       <div className="w-full max-w-[2000px] mx-auto px-4 md:px-8">
         <div className="flex flex-col items-start space-y-2">
-          <div className="flex items-center gap-4 w-full">
-            <div className="w-full overflow-visible">
+          <div className="flex items-start gap-4 w-full">
+            <div className="w-full">
               <h1 
                 ref={headerTextRef}
-                className="leading-tight font-eb-garamond italic text-left break-words overflow-visible w-full"
+                className="leading-tight font-eb-garamond italic text-left break-words"
                 style={{ 
-                  fontSize: 'min(14vw, 7rem)',
+                  fontSize: 'min(16vw, 8rem)',
                   lineHeight: '1',
                   maxWidth: '100%',
                   width: '100%'

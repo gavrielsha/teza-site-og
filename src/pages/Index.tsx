@@ -4,8 +4,6 @@ import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
 import { HowWeOperateSection } from "@/components/HowWeOperateSection";
 import { ContactSection } from "@/components/ContactSection";
-import "@fontsource/eb-garamond";
-import "@fontsource/oswald";
 
 export default function Index() {
   const [isContentVisible, setIsContentVisible] = useState(false);
