@@ -73,6 +73,11 @@
   src: url('/fonts/Kagon DEMO.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'GroutpixFlow';
+  src: url('/fonts/GroutpixFlowSlabSerif.ttf') format('truetype');
+}
+
 .font-eb-garamond {
   font-family: 'EB Garamond', serif;
 }
@@ -91,4 +96,8 @@
 
 .font-kagon {
   font-family: 'KAGON', sans-serif;
+}
+
+.font-groutpix {
+  font-family: 'GroutpixFlow', sans-serif;
 }
