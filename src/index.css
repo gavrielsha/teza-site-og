@@ -63,6 +63,11 @@
   src: url('/fonts/PIPEC TYPEFACE.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'ZHIROK';
+  src: url('/fonts/ZHIROK TYPEFACE.otf') format('opentype');
+}
+
 .font-eb-garamond {
   font-family: 'EB Garamond', serif;
 }
@@ -73,4 +78,8 @@
 
 .font-pipec {
   font-family: 'PIPEC', sans-serif;
+}
+
+.font-zhirok {
+  font-family: 'ZHIROK', sans-serif;
 }
