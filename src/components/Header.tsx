@@ -31,14 +31,13 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
       headerText.style.transform = `scale(${scale})`;
       headerText.style.transformOrigin = 'left top';
 
-      // Add a buffer zone to prevent hiccups
+      // Keep header fixed and only update its transform
+      header.style.position = 'fixed';
+      header.style.top = '0';
+      
+      // If we've scrolled past the target position, lock the scale at minimum
       if (howWeOperateTop <= headerHeight + 5) {
-        header.style.position = 'absolute';
-        header.style.top = `${howWeOperate.offsetTop - headerHeight}px`;
         headerText.style.transform = 'scale(0.65)';
-      } else {
-        header.style.position = 'fixed';
-        header.style.top = '0';
       }
     };
 
