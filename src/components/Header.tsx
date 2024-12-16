@@ -61,8 +61,8 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
           <Logo size="medium" />
           <h1 
             ref={headerTextRef}
-            className="text-[45vw] font-bold leading-tight font-matrix"
-            style={{ fontSize: 'clamp(2rem, 45vw, 4rem)' }}
+            className="text-[85vw] font-bold leading-tight font-matrix"
+            style={{ fontSize: 'clamp(2rem, 85vw, 8rem)' }}
           >
             We spark{" "}
             <span className="text-blue-600 cursor-pointer" onClick={onViralityClick}>
