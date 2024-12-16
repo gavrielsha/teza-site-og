@@ -50,7 +50,7 @@ export const ContactSection = () => (
             className="min-h-[200px] bg-gray-50 border-0 rounded-none resize-none font-matrix" 
           />
         </div>
-        <Button className="w-full bg-black text-white hover:bg-gray-800 rounded-full h-12 text-xl">
+        <Button className="w-full bg-black text-white hover:bg-gray-800 rounded-full h-12 text-xl font-matrix">
           Send Message
         </Button>
       </div>
