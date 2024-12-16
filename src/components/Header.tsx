@@ -50,7 +50,7 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
   return (
     <header 
       ref={headerRef} 
-      className="fixed top-0 left-0 right-0 z-10 py-2" 
+      className="fixed top-0 left-0 right-0 z-10 py-2 w-full" 
       style={{
         boxShadow: '0 4px 6px -1px rgba(255, 255, 255, 0.7), 0 2px 4px -1px rgba(255, 255, 255, 0.6)',
         background: 'linear-gradient(to bottom, white 90%, rgba(255, 255, 255, 0.8) 100%)'
@@ -59,16 +59,21 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="flex flex-col items-start space-y-2">
           <Logo size="medium" />
-          <h1 
-            ref={headerTextRef}
-            className="text-[85vw] font-bold leading-tight font-matrix"
-            style={{ fontSize: 'clamp(2rem, 85vw, 8rem)' }}
-          >
-            We spark{" "}
-            <span className="text-blue-600 cursor-pointer" onClick={onViralityClick}>
-              virality <span className="inline-block">[1]</span>
-            </span>
-          </h1>
+          <div className="w-full overflow-hidden">
+            <h1 
+              ref={headerTextRef}
+              className="font-bold leading-tight font-matrix text-left whitespace-nowrap"
+              style={{ 
+                fontSize: 'min(85vw, 8rem)',
+                lineHeight: '1.1'
+              }}
+            >
+              We spark{" "}
+              <span className="text-blue-600 cursor-pointer" onClick={onViralityClick}>
+                virality <span className="inline-block">[1]</span>
+              </span>
+            </h1>
+          </div>
         </div>
       </div>
     </header>
