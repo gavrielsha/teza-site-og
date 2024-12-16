@@ -47,22 +47,23 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
   return (
     <header 
       ref={headerRef} 
-      className="fixed top-0 left-0 right-0 z-10 py-4 w-full" 
+      className="fixed top-0 left-0 right-0 z-10 py-2 w-full" 
       style={{
         boxShadow: '0 4px 6px -1px rgba(255, 255, 255, 0.7), 0 2px 4px -1px rgba(255, 255, 255, 0.6)',
-        background: 'linear-gradient(to bottom, white 90%, rgba(255, 255, 255, 0.8) 100%)'
+        background: 'linear-gradient(to bottom, white 90%, rgba(255, 255, 255, 0.8) 100%)',
+        minHeight: 'min-content'
       }}
     >
       <div className="container mx-auto px-6 max-w-4xl">
-        <div className="flex flex-col items-start space-y-4">
+        <div className="flex flex-col items-start space-y-2">
           <Logo size="medium" />
-          <div className="w-full overflow-visible pb-2">
+          <div className="w-full overflow-visible">
             <h1 
               ref={headerTextRef}
-              className="leading-tight font-eb-garamond italic text-left break-words"
+              className="leading-tight font-eb-garamond italic text-left break-words overflow-visible"
               style={{ 
-                fontSize: 'clamp(2.025rem, 6.75vw, 4.05rem)',
-                lineHeight: '1.2',
+                fontSize: 'clamp(2.5rem, 8vw, 5rem)',
+                lineHeight: '1',
                 maxWidth: '100%'
               }}
             >
