@@ -1,5 +1,5 @@
 export const HeroSection = () => (
-  <section className="space-y-6 font-matrix">
+  <section className="space-y-6 font-matrix px-6 md:px-12">
     <div className="space-y-4">
       <p>
         [1] Engineering virality through AI-powered narrative marketing. We've generated hundreds of millions of views, dominated global headlines, and broken through every echo chamber imaginable.

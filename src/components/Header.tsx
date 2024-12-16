@@ -54,7 +54,7 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
       }}
     >
       <div className="w-full max-w-[2000px] mx-auto px-6 md:px-12">
-        <div className="flex flex-col items-start space-y-2">
+        <div className="flex flex-col items-start">
           <div className="flex items-center gap-4 w-full overflow-hidden">
             <div className="w-full">
               <h1 
