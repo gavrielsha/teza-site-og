@@ -79,6 +79,11 @@
   src: url('/fonts/Neue Protest.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'RLMadena';
+  src: url('/fonts/RL-Madena-Oblique.woff') format('woff');
+}
+
 .font-eb-garamond {
   font-family: 'EB Garamond', serif;
 }
@@ -109,6 +114,10 @@
 
 .font-neue-protest {
   font-family: 'NeueProtest', sans-serif;
+}
+
+.font-rl-madena {
+  font-family: 'RLMadena', sans-serif;
 }
 
 @layer base {
