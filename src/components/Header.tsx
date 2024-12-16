@@ -61,7 +61,7 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
           <Logo size="medium" />
           <h1 
             ref={headerTextRef}
-            className="text-[45vw] font-bold leading-tight font-groutpix"
+            className="text-[45vw] font-bold leading-tight font-matrix"
             style={{ fontSize: 'clamp(2rem, 45vw, 4rem)' }}
           >
             We spark{" "}

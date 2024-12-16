@@ -49,15 +49,6 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-
 @font-face {
   font-family: 'PIPEC';
   src: url('/fonts/PIPEC TYPEFACE.otf') format('opentype');
@@ -76,6 +67,11 @@
 @font-face {
   font-family: 'GroutpixFlow';
   src: url('/fonts/GroutpixFlowSlabSerif.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MatrixType';
+  src: url('/fonts/Matrixtype.ttf') format('truetype');
 }
 
 .font-eb-garamond {
@@ -100,4 +96,17 @@
 
 .font-groutpix {
   font-family: 'GroutpixFlow', sans-serif;
+}
+
+.font-matrix {
+  font-family: 'MatrixType', sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }
