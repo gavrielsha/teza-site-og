@@ -53,7 +53,7 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
         minHeight: 'min-content'
       }}
     >
-      <div className="w-full max-w-[2000px] mx-auto px-6 md:px-12">
+      <div className="w-full max-w-[2000px] mx-auto px-4 md:px-8">
         <div className="flex flex-col items-start space-y-2">
           <div className="flex items-center gap-4 w-full">
             <div className="w-full overflow-visible">
@@ -61,7 +61,7 @@ export const Header = ({ isContentVisible, onViralityClick, howWeOperateRef }: H
                 ref={headerTextRef}
                 className="leading-tight font-eb-garamond italic text-left break-words overflow-visible w-full"
                 style={{ 
-                  fontSize: 'min(16vw, 8rem)',
+                  fontSize: 'min(14vw, 7rem)',
                   lineHeight: '1',
                   maxWidth: '100%',
                   width: '100%'
